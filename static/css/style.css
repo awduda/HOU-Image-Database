@@ -1,0 +1,428 @@
+/* Global */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #8a8683;
+	background-color:#fff;
+	overflow-x: hidden;
+}
+img {
+	max-width: 100%;
+}
+a:link {
+	color: #8a8683;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	color: #8a8683;
+	text-decoration: none;
+}
+
+
+.centered {
+
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  opacity: 0;
+  height: 70px;
+
+
+}
+.centered h1{
+text-align: center;
+font-size: 4em;
+color:#43BFE8;
+}
+#credits{
+background-color:#43BFE8;
+padding:15px;
+}
+
+#credits p{
+
+text-align:center;
+text-overflow: ellipsis;
+
+font-size: 1em;
+	letter-spacing: 0px;
+	line-height: px;
+	color:#FFFFFF;
+	background-color:#43BFE8;
+	font-weight: 500;
+}
+
+.main{
+height: 100%;
+width: 100%;
+overflow: hidden;
+}
+.sub_main{
+height: 100%;
+width: 100%;
+overflow: auto;
+padding-right: 15px;
+
+}
+
+/*login*/
+#login_form{
+background-color: #fff;
+width: 210px;
+height: 320px;
+margin: auto;
+position: fixed;
+top: 0; left: 0; bottom: 0; right:0;
+text-align: center;border-radius: 5px;
+}
+
+#login_form p{
+font-size: .7em;
+margin-top: 12px;
+
+}
+#login_form a{
+color: #50bae5;
+
+}
+#login_form a:hover{
+color: #43bfe8;
+}
+#contribute_here a:hover{
+color: #43bfe8;
+}
+#login_form_form{
+height: 100%;
+position:absolute;
+}
+#x_button{
+width: 30px;
+height: 30px;
+margin-top:-15px;
+margin-right:-15px;
+
+float:right;
+background-image: url('/static/images/ui/x2.png');
+background-size: 100%;
+}
+#x_button:hover{
+background-image: url('/static/images/ui/x2_hover.png');
+}
+#login_confirm_button{
+height: 50px;
+width: 100%;
+position: absolute;
+bottom: 0;
+display: table;
+background-color: #50bae5;
+border: none;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+#login_confirm_button h3{
+color: #fff;
+display: inline;
+vertical-align: middle;
+text-align: center;
+padding: 0px;
+
+}
+#login_confirm_button:hover{
+background-color: #43BFE8;
+}
+#username{
+width: 190px;
+margin-left: 10px;
+height: 40px;
+margin-top:10px;
+}
+#remember{margin-top: 1px; margin-right: 3px;}
+#username_label{margin-top: 12px;margin-left:15px;}
+#remember_label{font-size:0.8em; margin-top: 20px;}
+
+#password{
+width: 190px;
+height: 40px;
+margin-left: 10px;
+margin-top: 10px;
+}
+#password_label{margin-top: 10px;}
+
+/* Navigation */
+
+.bottomnav{
+
+	text-align:center;
+	text-overflow: ellipsis;
+	height: 5%;
+	font-size: 1em;
+	letter-spacing: 0px;
+	line-height: px;
+	color:#FFFFFF;
+	font-weight: 500;
+
+}
+
+.menu {
+	position:fixed;
+	top:-50px;
+	width:100%;
+	height:auto;
+	background-color:#43BFE8;
+	z-index:100;
+	opacity: 1;
+}
+#menu{
+	background-color:#43BFE8;
+        border: none;
+        margin-bottom:0px;
+}
+
+#logo {
+
+line-height:1;
+}
+#logo_img{
+margin-top:-7px;
+}
+#nav {
+	text-align: right;
+	margin: 13.8px 0 0 0;
+}
+
+
+#nav_header{
+width: 100%;
+}
+
+#background_images{
+margin-top: 20px;
+width: 120%;
+height: 110%;
+overflow:visible;
+
+}
+.random_image{
+height: 50%;
+width: 15%;
+display:inline-block;
+background-size: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+margin-bottom: -6px;
+padding-top: 0;
+opacity: 1;
+  font-size:0;
+
+}
+
+.random_image:hover{
+border: 2px solid;
+border-color: #43BFE8;
+
+}
+.navigation a{
+	float: left;
+	padding:0 0px 0px 20px;
+	font-size: medium;
+}
+.navigation a:hover{
+	color: #fff;
+
+}
+.nav {
+	float: left;
+	padding:0 0px 0px 30px;
+}
+.navigation li:hover{
+	cursor:pointer;
+	color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #FFF;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color:  #43bfe8;
+box-shadow: 0px 0px 0px;
+}
+
+.navbar-default{
+    	background-color:#43BFE8;
+}
+.navbar{
+	border: 0px solid;
+        margin-bottom: 0px;
+}
+.navbar-default .navbar-nav > .active a{
+    	background-color:#43BFE8;
+	color: #FFF;
+
+ }
+
+.navbar-default .navbar-nav > .active a:hover{
+    	background-color:#43BFE8;
+	color: #fff;
+
+ }
+
+#plus_circle{
+	width: 30px;
+	margin-top:10px;
+	margin-right:10px;
+}
+
+.rotatable:hover{
+
+    -webkit-animation:spin .5s linear 1;
+    -moz-animation:spin .5s linear 1;
+    }
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(90deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(90deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(90deg); transform:rotate(90deg); } }
+
+
+
+/*------------------------------------------------------*/
+
+/* General Slides */
+
+body, html {
+  height: 100%;
+}
+
+
+.slide{
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width:100%;
+	height:100%;
+	position: relative;
+
+}
+
+
+
+/* Slide 1 */
+
+#slide1{
+
+
+
+        background-opacity: 0.1;
+	background-color:rgba(255,255,255,0.5);
+
+}
+#slide1 h1 {
+	font-size: 3.2em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#FFFFFF;
+	font-weight: 400;
+}
+#slide1 h2 {
+
+	font-size: 2em;
+	color: #8a8683;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+
+
+
+/* Slide 2 */
+
+#slide2{
+	background-image:url('../images/ui/space2.jpg');
+	background-color:#f68f67;
+
+}
+#slide2 h1 {
+	font-size: 3.2em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 400;
+}
+#slide2 h2 {
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+.to_left{
+margin-right: -3000px;
+}
+
+
+/* Slide 3 */
+
+#slide3{
+	background-color:##43BFE8;;
+	background-image:url('../images/ui/tele1.jpg');
+}
+#slide3 h1 {
+	font-size: 3.2em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 400;
+}
+#slide3 h2 {
+	font-size: 2em;
+	color: #8a8683;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+#test{
+	background-color:#bde2df;
+	color:#ffffff;
+	text-align:center;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+.to_right{
+margin-left: -3000px;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+#logo {
+	width: 100%;
+	text-align: center;
+	background-color:  #43BFE8;
+
+}
+
+#nav {
+	width:500px;
+	text-align:center;
+	margin:10px 0;
+}
+
+.navigation{
+
+
+
+
+}
+
+.navigation li{
+
+
+}

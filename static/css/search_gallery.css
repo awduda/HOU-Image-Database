@@ -1,0 +1,113 @@
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+
+.cf:after{
+    clear:both;
+}
+
+.cf{
+    zoom:1;
+}
+
+
+/* Form wrapper styling */
+.form-wrapper {
+    position: relative;
+
+    width: 30%;
+
+    margin-top:-33px;
+    /*padding: 15px;*/
+    margin: 0 auto 0px auto;
+
+    background: #444;
+    background: rgba(0,0,0,0);
+
+    /*box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);*/
+}
+
+/* Form text input */
+
+.form-wrapper input {
+    width: 90%;
+    height: 20px;
+    padding: 10px;
+    float: left;
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+/* Form submit button */
+.form-wrapper button {
+    overflow: visible;
+    position: absolute;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 10%;
+
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #43BFE8;
+
+    background-position:center center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+
+}
+
+
+
+
+.form-wrapper button:hover{
+    background: #7bd2ee;
+
+    background-image: url('static/images/ui/search_mini.png');
+    background-position:center center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+
+.form-wrapper button:active,
+.form-wrapper button:focus{
+    background: #c42f2f;
+    background-image: url('static/images/ui/search_mini.png');
+    outline: 0;
+}
+
+
+
+
+
+
+.form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}
+
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+.form-wrapper { width: 30%}
+}

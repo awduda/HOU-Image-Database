@@ -1,0 +1,9 @@
+*.pyc
+settings.py
+*~
+*.fits
+static/images/temp
+build
+*.save
+*.save.*
+manage.py

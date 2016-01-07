@@ -1,0 +1,68 @@
+<html>
+<head>
+<link rel="shortcut icon" href="../static/images/ui/favicon.ico" type="image/x-icon">
+<title>HOU Image Database</title>
+
+<link rel="icon" href="/static/images/ui/favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../static/css/normalize.css" type="text/css" static="screen">
+<link rel="stylesheet" href="../static/css/grid.css" type="text/css" static="screen">
+<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="stylesheet" href="../static/css/uploader_style.css" type="text/css" static="screen">
+<script src="../static/js/global/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="../static/js/uploader/binaryajax.js"></script>
+
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+
+<script src="../static/js/uploader/excanvas.js"></script>
+<script src="../static/js/global/fits.js" type="text/javascript" charset="utf-8"></script>
+<script src="../static/js/global/fits3.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+{% load staticfiles %}
+
+<body>
+
+<div class="menu">
+{% load staticfiles %}
+<a href="/"><div id="logo_cell"><img id="logo" src="/static/images/ui/houlogo.png" ></div></a>
+
+
+
+		</div>
+
+</div>
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+
+<div class="uploadgrid">
+
+	<div class="loadGrid">
+		<div id="welcome">
+		<h3>Welcome  {{ user.first_name }}! Upload .fits files through the form below.</h3>
+		<form class="main_form" id="file_input_main" method="post" enctype="multipart/form-data" >
+		{% csrf_token %}
+		{{form}}
+		<!---
+		<input id="file_input_main" type="file" multiple/></input>-->
+		</form>
+		</div>
+	</div>
+
+
+
+
+</div>
+
+
+</body>
+<script src="../static/js/uploader/upload_preview.js" type="text/javascript" charset="utf-8"></script>
+<script src="../static/js/uploader/error_check.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+</html>

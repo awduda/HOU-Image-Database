@@ -1,0 +1,59 @@
+search engine strings to parse:
+
+image/photo/picture:
+
+	check next word, but basically ignore
+
+images/photos/pictures:
+
+	check next/ignore 
+
+and:
+	if single, use as separator
+
+or: 	if single, use as separator
+
+taken: check next word, eval as below
+
+by:
+
+	check next three words, match against observatory/header cards.
+
+of:
+
+	check next word, match against objects
+
+at: 
+
+	check next three words, for time, date, or observatory
+
+from:
+
+	check next three strings. could be observatory or from date to date
+
+with: 
+
+	check next two strings for telescope name
+
+uploaded by:
+
+	check next two strings for observer name
+
+uploaded on: 
+
+	check next three strings for date or date to date
+
+
+RA: DEC:
+
+[all fits keywords]:
+
+	check next string for value, parse as "get images with keyword value"
+
+
+
+[Dates]:
+
+
+
+

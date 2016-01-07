@@ -1,0 +1,94 @@
+.cf:before, .cf:after{
+   
+    
+}
+ 
+.cf:after{
+    clear:both;
+}
+ 
+.cf{
+    zoom:1;
+}    
+
+/* Form wrapper styling */
+.form-wrapper {
+    width: 60%;
+    min-width: 200px;
+    height: 50px;
+    margin: 0px auto;
+
+
+    background: rgba(0,0,0,.2);
+
+
+}
+ 
+/* Form text input */
+ 
+.form-wrapper input {
+    width: 95%;
+    height: 50px;
+    display:inline;
+    float: left;   
+    font: bold 25px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    margin-left: -20px;
+    padding-left: 15px;
+border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+
+}
+ 
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 0px rgba(0,0,0,.8) inset;
+}
+ 
+.form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+   left: 5px;
+}
+ 
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+    left: 5px;
+}
+ 
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}   
+ 
+/* Form submit button */
+.form-wrapper button {
+    display:inline;
+    overflow: visible;
+    position: absolute;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 50px;
+    width: 5%;
+    min-width: 50px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #43BFE8;
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+}  
+
+.form-wrapper button:hover{
+background: #50bae5;
+}
+   

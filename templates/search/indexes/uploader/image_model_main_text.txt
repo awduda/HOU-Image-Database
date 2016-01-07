@@ -1,0 +1,7 @@
+{{ object.observer_name }}
+{{ object.observatory_name }}
+
+{{ object.telescope_name }}
+{{ object.object_name }}
+{{ object.header_data_other }}
+
