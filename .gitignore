@@ -2,7 +2,7 @@
 settings.py
 *~
 *.fits
-static/images/temp
+static/images/temp/*
 build
 *.save
 *.save.*
